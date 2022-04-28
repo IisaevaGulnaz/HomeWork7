@@ -1,0 +1,129 @@
+.what-we-do {
+	background-image: url(../../img/jpg/banner2.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.what-we-do-block {
+	padding: 120px 100px;
+}
+.what-we-do-block-top {
+	text-align: center;
+}
+.what-we-do-block-top h2 {
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 42px;
+	text-align: center;
+	color: #ffffff;
+	margin-bottom: 16px;
+}
+.what-we-do-block-top p {
+	font-weight: 400;
+	font-size: 23px;
+	line-height: 30px;
+	text-align: center;
+	color: #c0c0c0;
+}
+.what-we-do-block-bottom {
+	min-width: 1440px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.cards {
+	width: 576px;
+	height: 600px;
+	border-radius: 10px;
+	margin-bottom: 16px;
+}
+
+.cards h2 {
+	font-family: inherit;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #ffffff;
+	padding: 200px;
+	width: 501px;
+	text-align: center;
+}
+
+.cards p {
+	font-family: inherit;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: #c0c0c0;
+	margin: 0 auto;
+	margin-left: 10px;
+}
+.cards div {
+	width: 180px;
+	margin: 20px auto 0 auto;
+}
+
+.backImg1 {
+	background-image: url(../../img/jpg/image1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin: 8px;
+}
+
+.backImg2 {
+	background-image: url(../../img/jpg/image2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin: 8px;
+}
+
+.backImg3 {
+	background-image: url(../../img/jpg/image3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin: 8px;
+}
+
+.backImg4 {
+	background-image: url(../../img/jpg/image4.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin: 8px;
+}
+.whwd-btn {
+	display: inline-block;
+	min-height: 42px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: white;
+	color: black;
+	font-size: 16px;
+	font-weight: 400;
+	border-radius: 9px;
+	transition: opacity 0.2s ease;
+}
+
+@media (max-width: 1399px) {
+	.what-we-do {
+		padding-top: 60px;
+		padding-bottom: 30px;
+	}
+	.what-we-do-block-bottom {
+		flex-direction: column;
+	}
+}
+
+@media (max-width: 991px) {
+}
